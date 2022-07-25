@@ -53,5 +53,5 @@ If you want (_and because i love the coffee 🥰_), [you can buy me a coffee](ht
 
 ## TODO
 
-- [] Add examples
-- [] Can take multiple paths
+- [ ] Add examples
+- [ ] Can take multiple paths
