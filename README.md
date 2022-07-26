@@ -6,7 +6,7 @@ I made this tool with the goal to have a simple and fiable way to update automat
 
 This tool can be used for any git projet, not only Node.js app ! 😉
 
-## Prerequistes
+## Prerequisites
 
 - [Nodejs](https://nodejs.org/en/) 16 or higher.
 - [Google zx package](https://github.com/google/zx) installed (_see installation bellow_).
@@ -21,7 +21,7 @@ This method is **recommended** because it can be used in any project.
 2. Put the `git-auto-updater.mjs` in a folder of your system,
 3. Make the script executable with `chmod +x ./git-auto-updater.mjs`
 
-## As a depency (Node.js  only)
+### As a depency (Node.js  only)
 
 This method is **not recommended** because it's for **Node.js project only**.
 
@@ -35,7 +35,7 @@ This method is **not recommended** because it's for **Node.js project only**.
 
 ## Arguments
 
-| Short alias | Long alias           | Utility                        | Default value         |
+| Short arg | Long arg           | Utility                        | Default value         |
 | ----------- | -------------------- | ------------------------------ | --------------------- |
 | 'a'         | 'action'             | action to on pull success      | **undefined**         |
 | 'b'         | 'branches'           | Git branches allowed to update | **'master,main' **    |
